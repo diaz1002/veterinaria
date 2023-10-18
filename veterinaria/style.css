@@ -1,0 +1,199 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Holyfat";
+    src: url(./galeria/Holyfat.ttf);
+}
+
+.btn {
+    font-size: 3rem;
+    font-family: "Holyfat";
+    text-decoration: none;
+    color: rgb(59, 237, 142);
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    color: black;
+    transition: 1.5s;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 2rem;
+
+
+}
+
+body {
+
+    background-image: url(/galeria/fondo1.jpg);
+    height: auto;
+}
+
+.men {
+    background-color: antiquewhite;
+    padding: 2rem;
+    gap: 3rem;
+    display: flex;
+    border-radius: 2rem;
+    align-items: center;
+
+}
+
+.contenedor {
+    display: flex;
+    padding: 3rem;
+    justify-content: space-around;
+}
+
+
+.contenedor2 {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+
+}
+
+.texto {
+    font-size: 2rem;
+align-items: center;
+}
+
+.titulo1{
+color: rgb(59, 237, 142);
+font-weight: 550;
+}
+
+.titulo2 {
+    color: rgb(59, 237, 142);
+}
+
+.parrafo1 {
+    color: rgb(95, 234, 234);
+}
+
+.boton{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Holyfat";
+    background-color: rgb(59, 237, 142);
+    padding: 2rem;
+    border-radius: 50%;
+    color: white;
+}
+.boton:hover{
+    transform: scale(1.2);
+    transition: 0.6s;
+}
+
+.suscribete{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+.objetos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+    font-size: 2rem;
+}
+
+.title{
+    font-family: "Holyfat";
+    font-size: 4rem;
+}
+.texto_1{
+    font-size: 2rem;
+}
+
+.titulo3{
+    font-family: "Holyfat";
+    font-size: 4rem;
+
+}
+
+.columnde{
+    color: rgb(59, 237, 142);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text_2{
+    background-color: rgb(59, 237, 142);;
+    color: white;
+}
+
+.imgs{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.titulo4{
+    display: flex;
+    justify-content: center;
+    font-family: "Holyfat";
+    font-size: 5rem;
+    color: rgb(59, 237, 142);
+}
+
+.imag{
+    display: flex;
+    gap: 7rem;
+}
+
+.grafica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    
+}
+.tex{
+    color: white;
+    font-size: 2rem;
+}
+
+.respu{
+    font-weight: 900;
+}
+
+.container{
+max-width: 90%;
+}
+
+.padre{
+    display: flex;
+    justify-content: center;
+}
+
+.torta{
+    width: 25rem;
+}
+
+.bene:hover{
+    transform: scale(1.2);
+    transition: 0.6s;
+}
